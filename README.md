@@ -3,20 +3,24 @@ Practical threat detection on Linux systems. Includes reverse shell analysis, an
 
 # Linux Threat Detection Lab
 
-This repository contains practical laboratory exercises focused on threat detection in Linux environments. It includes documentation and screenshots for scenarios such as reverse shell exploitation using Metasploit, written in both English and Spanish.
+This repository contains practical, hands-on labs focused on identifying, analyzing, and understanding malicious behavior in Linux environments. The exercises are designed to simulate real-world attack scenarios using tools like Metasploit and provide documentation in both English and Spanish.
 
-## Contents
+## 🔍 Contents
 
-- Reverse shell simulation using Metasploit (`metasploit_reverse_shell/`)
-- Step-by-step bilingual documentation (ENG/ESP)
-- Supporting screenshots for evidence and analysis
+### 1. Metasploit Reverse Shell Lab
+- Folder: `metasploit_reverse_shell/`
+- Objective: Simulate and analyze a reverse TCP shell using an ELF payload on a Linux system.
+- Summary file: [`lab_summary.md`](./metasploit_reverse_shell/lab_summary.md)
+- Includes screenshots of payload execution and meterpreter session.
 
-## Goal
+### 2. Metasploit RAT Session Lab
+- Folder: `metasploit_rat_session/`
+- Objective: Simulate a Remote Access Trojan (RAT) session, observe system behavior, and inspect traffic.
+- Summary file: [`lab_summary.md`](./metasploit_rat_session/lab_summary.md)
+- Includes screenshots of htop output and captured packets via tcpdump.
 
-To demonstrate hands-on capabilities in identifying and analyzing malicious activity on Linux systems, laying the foundation for further development of log analysis tools, alerting mechanisms, and host-based detection.
+## 🧑‍🎓 Author
 
-## Author
-
-Bruno Paolo Huamán Vela  (Lima, Peru)
-Cybersecurity student at Ural Federal University (UrFU)  
-Focus: Information Security in Telecommunication Systems 
+**Bruno Paolo Huamán Vela (Lima, Peru)**  
+Cybersecurity Student – Ural Federal University (UrFU)  
+Specialization: Information Security in Telecommunication Systems  
