@@ -19,7 +19,7 @@ This repository contains practical, hands-on labs focused on identifying, analyz
 - Summary file: [`lab_summary.md`](./metasploit_rat_session/lab_summary.md)
 - Includes screenshots of htop output and captured packets via tcpdump.
 
-## 🧑‍🎓 Author
+## Author
 
 **Bruno Paolo Huamán Vela (Lima, Peru)**  
 Cybersecurity Student – Ural Federal University (UrFU)  
