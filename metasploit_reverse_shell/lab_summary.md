@@ -70,6 +70,8 @@ Explore the behavior of a reverse shell in Linux systems using Metasploit and ve
 - msfvenom can produce payloads that are not detected by signature-based AV.
 - Properly configured tools like tcpdump or Snort can help detect unusual outgoing connections.
 
+![rules](screenshots/step21.jpg)
+
 ## Recommendations
 
 - Use execution control mechanisms like AppArmor or SELinux.
